@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why a blog?"
+title: "Why did I start this blog?"
 description: "Why do I want to have a blog? Aren't there enough blogs around?"
 comments: true
 keywords: "blog, tech, why, question"
