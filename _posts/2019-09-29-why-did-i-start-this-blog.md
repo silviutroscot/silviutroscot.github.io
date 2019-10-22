@@ -5,20 +5,8 @@ description: "Why do I want to have a blog? Aren't there enough blogs around?"
 comments: true
 keywords: "blog, tech, why, question"
 ---
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150688122-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-150688122-1');
-</script>
-
-</head>
-
-Well...everyone has a blog, so why one more around? Why are you writing down stuff on a blog? It's 2019, dude...<br/>
+Well..everyone has a blog, so why one more around? Why are you writing down stuff on a blog? It's 2019, dude...<br/>
 The answer for that is very selfish: I want to improve the way I present and explain different things 
 happening in my mind and the concepts I want to understand, and to learn how to structure my speech and ideas and to use more suitable words.<br/>
 Besides that, I strongly believe in what Feynman said, "If you want to master something, teach it.", so 
