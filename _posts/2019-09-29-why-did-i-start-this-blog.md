@@ -18,7 +18,7 @@ keywords: "blog, tech, why, question"
 
 </head>
 
-Well..everyone has a blog, so why one more around? Why are you writing down stuff on a blog? It's 2019, dude...<br/>
+Well...everyone has a blog, so why one more around? Why are you writing down stuff on a blog? It's 2019, dude...<br/>
 The answer for that is very selfish: I want to improve the way I present and explain different things 
 happening in my mind and the concepts I want to understand, and to learn how to structure my speech and ideas and to use more suitable words.<br/>
 Besides that, I strongly believe in what Feynman said, "If you want to master something, teach it.", so 
