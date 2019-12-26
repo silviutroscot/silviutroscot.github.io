@@ -29,6 +29,8 @@ Transcoding is generally a lossy process and it involves the conversion of a vid
 The video stream alongside the audio stream and possibly subtitles are packaged together in a "container". This container has details about syncing, codec used, etc. Some examples of containers are MP4, MOV, MPEG-TS.
 
 ### Encryption
+Depending on the content type and platform/company, the video stream can be encrypted. No one can view the encrypted videos without firstly decrypting them. One of the most common video encryptions is AES 128 - Advanced Encryption Standard, using a block size of 128 bits. AES is a symmetric key algorithm, i.e. the encryption key is also the decryption key.
+DRM - Digital Rights Management encryption involves a Content Decryption Module which is proprietary and it is part of the device or the browser. In this way, the key is not directly exposed to the user.
 
 ## Client side
 ### Upload
