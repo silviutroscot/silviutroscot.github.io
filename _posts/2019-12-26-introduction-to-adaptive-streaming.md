@@ -5,6 +5,7 @@ description: "Introduction to adaptive streaming: transcoding, transmuxing, adap
 comments: true
 keywords: "blog, tech, why, question"
 ---
+## Why video engineering?
 
 According to [Cisco projections](https://www.webmarketingpros.com/internet-video-to-account-for-80-of-global-traffic-by-2019/) 80% all web traffic in 2019 is video, which shows that video streaming is a very important and growing area. Besides the well known video platforms such as [Youtube](www.youtube.com) or [Netflix](www.netflix.com), large companies are building their own streaming platforms, and some examples are [Disney](https://preview.disneyplus.com/uk/) and [Apple](https://www.pocket-lint.com/tv/news/apple/133233-apple-tv-subscription-streaming-service-what-s-the-story-so-far).
 For someone without experience or technical background, video streaming looks like a trivial task and without many challenges; you record the content and then stream it, right? Well..not really.
@@ -34,13 +35,15 @@ DRM - Digital Rights Management encryption involves a Content Decryption Module 
 
 ## Client side
 ### Upload
-On the modern video streaming platforms, if the client has the functionality to upload videos, it usually demux and decompress the video and then it will re-encode and remux the video. Thereafter, with this newly encoded video 
+On the modern video streaming platforms, if the client has the functionality to upload videos, it usually demux and decompress the video and then it will re-encode and remux the video. Thereafter, with this newly encoded video the upload API is called. Usually the API is resumable so the video is split by the client into chunks and each chunk is uploaded separately and they are ordered by the server.
 ### Player
-Depending on the platform, there are different video clients used. For iOS the Apple player framework, [AVFoundation](https://developer.apple.com/av-foundation/) is the most used, for Android there are more options but the most popular player is [Exoplayer](https://github.com/google/ExoPlayer) which is open sourced but it is created and maintained by Google, whilst for web there are multiple options, such as [video.js](https://videojs.com/) or [jPlayer](http://jplayer.org/). 
+Depending on the platform, there are different video clients used. For iOS the Apple player framework, [AVFoundation](https://developer.apple.com/av-foundation/) is the most used, for Android there are more options but the most popular player is [Exoplayer](https://github.com/google/ExoPlayer) which is open sourced but it is created and maintained by Google, whilst for web there are multiple options, such as [video.js](https://videojs.com/) or [jPlayer](http://jplayer.org/). The player should be able to estimate the bandwidth and request the most suitable segment based on that, manage the buffer, decode (usually using hardware decoders) and play the video but also to record metrics from that session, if needed.
 
 
 ## Open problems
-Probably the most difficult problem in video engineering is to assess how good a video looks for the human eye. This is called <u>subjective quality analysis</u>
+Probably the most difficult problem in video engineering is to assess how good a video looks for the human eye. This is called <u>subjective quality analysis</u> and there are many tools to do that, but none of them are very accurate. Some of them, which use signal processing approaches, are [PSNR](https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio), [SSIM](https://en.wikipedia.org/wiki/Structural_similarity). Lately, Netflix developed a tool which is considered to be the best tool available, called [VMAF](https://medium.com/netflix-techblog/vmaf-the-journey-continues-44b51ee9ed12) which uses Machine Learning alongside traditional analysis techniques.
+All the tools mentioned above are <u>reference based measurements</u>. These work very well especially for pristine videos, as we want to keep our encoded versions as close as possible to the original. Besides that, there are new approaches is assessing the quality without any reference. Some interesting work can be found [here](https://arxiv.org/pdf/1810.08169v1.pdf) and [here](https://arxiv.org/pdf/1908.11517.pdf).
+Another interesting problem is <u>bandwidth estimation</u>. This involves measuring the bandwidth from the last seconds and based on that to estimate the bandwidth for the next segment. The quality of estimation is very difficult to be assessed as we don't really know the bandwidth, but estimations can be done with network throttling with given limits.
 
 ## Further readings and talks
 - [AV1 and UGC transcoding](http://watch.bigapple.video/)
