@@ -3,7 +3,7 @@ layout: post
 title: "Introduction to video streaming"
 description: "Introduction to adaptive streaming: transcoding, transmuxing, adaptive streaming"
 comments: true
-keywords: "blog, tech, why, question"
+keywords: "blog, tech, adaptive streaming, video engineering"
 ---
 ## Why video engineering?
 
