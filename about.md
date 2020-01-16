@@ -8,7 +8,7 @@ permalink: /about/
 ### Background
 
 Born in [Ramnicu-Sarat](https://en.wikipedia.org/wiki/R%C3%A2mnicu_S%C4%83rat), Romania, where I lived for 18 years and I developed my interest in sciences and maths, but also in football, politics and lifting weights.<br/>
-Since 2016 I started studying Computer Science at [The University of Manchester](https://en.wikipedia.org/wiki/University_of_Manchester) and I was an intern at Seers CRM, Twitter, Bloomberg and Microsoft, where I gained a better image of the tech industry and I had the chance to work with great engineers.<br/>
+Since 2016 I started studying Computer Science at [The University of Manchester](https://en.wikipedia.org/wiki/University_of_Manchester) and I was an intern at Seers CRM, Twitter, Bloomberg and Microsoft, where I gained a better image of the tech industry and I had the chance to work with great engineers.<br/> 
 Currently, I am in the last year of the University and I am looking with curiosity to what the future will bring.
 
 ### Tech interests
