@@ -3,7 +3,9 @@ layout: post
 title: "Introduction to video streaming"
 description: "Introduction to adaptive streaming: transcoding, transmuxing, adaptive streaming"
 comments: true
-keywords: "blog, tech, why, question"
+keywords: "blog, tech, why, question, adaptive streaming, video, video engineering, streaming"
+read: 6
+fa: "fas fa-video"
 ---
 ## Why video engineering?
 
