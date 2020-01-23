@@ -5,7 +5,7 @@ description: "Introduction to adaptive streaming: transcoding, transmuxing, adap
 comments: true
 keywords: "blog, tech, why, question, adaptive streaming, video, video engineering, streaming"
 read: 6
-fa: "fas fa-video"
+fa: "fa fa-video-camera"
 ---
 ## Why video engineering?
 
