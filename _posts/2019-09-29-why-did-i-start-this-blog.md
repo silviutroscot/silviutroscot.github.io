@@ -5,7 +5,7 @@ description: "Why do I want to have a blog? Aren't there enough blogs around?"
 comments: true
 keywords: "blog, tech, why, question"
 read: 2
-fa: "fa fa-gear"
+fa: "fa fa-info-circle"
 ---
 
 Well..everyone has a blog, so why one more around? Why are you writing down stuff on a blog? It's 2019, dude...<br/>
