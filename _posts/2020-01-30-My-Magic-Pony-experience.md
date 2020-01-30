@@ -3,7 +3,9 @@ layout: post
 title: "My Twitter (Magic Pony) experience"
 description: "My Twitter London experience: Magic Pony"
 comments: true
-keywords: "blog, tech, Twitter, internship, video engineering"
+keywords: "blog, tech, Twitter, engineering, internship, video engineering"
+read: 8
+fa: "fa fa-twitter"
 ---
 
 ## Context and recruiting
