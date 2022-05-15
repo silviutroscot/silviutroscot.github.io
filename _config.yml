@@ -1,6 +1,6 @@
 # Site settings
 title_left    : "Silviu"
-title_right   : "Troscot" # default: ""
+title_right   : "Troscot" 
 description   : "Silviu's tech and life blog"
 keywords      : "tech, AI, ML, Vision, learning, maths"
 url           : https://silviutroscot.github.io # site url
@@ -8,7 +8,7 @@ baseurl       : null # apply repo name like "/myproject" if used under gh-pages 
 cover         : "" # image uri like logo/cover image for site seo
 
 google_analytics  : UA-XXXXX-XX
-twitter_username  : ""
+twitter_username  : "silviutroscot"
 comments_enabled  : false # if enabled (set to true), please provide your disqus_username
 disqus_shortname  : ""
 postshare_enabled : false
