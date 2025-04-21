@@ -2,7 +2,7 @@
 title_left    : "Silviu"
 title_right   : "Troscot" 
 description   : "Silviu's tech and life blog"
-keywords      : "tech, AI, ML, Vision, learning, maths"
+keywords      : "blockchain, DeFi, tech, AI, ML, Vision, learning, maths"
 url           : https://silviutroscot.github.io # site url
 baseurl       : null # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
